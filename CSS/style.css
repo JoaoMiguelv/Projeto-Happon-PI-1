@@ -122,3 +122,24 @@ article.itens-seller{
 	background-color: white;
 	text-align: center;
 }
+
+div.box-but-size li{
+	margin: 20px 0;
+	padding: 10px 10px;
+	font-weight: lighter;
+	display: inline-block;
+	background-color: #ede911;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin-right: 30px;
+}
+
+div.box-but-size li:hover{
+	background-color: #d6d315;
+}
+
+div.box-but-size a{
+	font-size: 27px;
+	color: white;
+	text-decoration: none;
+}
