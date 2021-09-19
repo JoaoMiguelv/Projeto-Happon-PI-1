@@ -63,3 +63,38 @@ nav.menu-desktop a:hover{
 	color: #646566;
 	font-size: 20px;
 }
+
+section.main-bg{
+	width: 100%;
+	height: 700px;
+	background-image: url(../img/Banner2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+section.main-bg .container{
+	position: relative;
+	z-index: 2;
+}
+
+.overlay{
+	z-index: 1;
+	position: absolute;
+	width: 92%;
+	height: 700px;
+	background-color: rgba(0, 0, 0, 0.5);
+	left: 8%;
+
+}
+
+section.main-bg h2{
+	padding: 80px 0;
+	text-align: right;
+	color: white;
+}
+
+section.main-bg p{
+	text-align: center;
+	color: white;
+}
