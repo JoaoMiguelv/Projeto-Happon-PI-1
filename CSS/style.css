@@ -143,3 +143,42 @@ div.box-but-size a{
 	color: white;
 	text-decoration: none;
 }
+
+article.icons-footer{
+	background-color: white;
+	margin: -20px;
+	padding: 20px;
+	text-align: center;
+}
+
+div.icons h2{
+ text-align: center;
+ margin: 20px 0;
+
+}
+
+div.icons-single{
+	text-align: center;
+	margin: 20px 20px;
+	font-weight: lighter;
+	display: inline-block;
+}
+
+footer.footer-container{
+	background-color: #fef802;
+	margin: 20px 0;
+	text-align: center;
+}
+
+div.footer-single{
+	text-align: center;
+	margin: 50px 20px;
+	font-weight: lighter;
+	display: inline-block;
+	
+}
+
+div.footer-single a{
+	color: black;
+	text-decoration: none;
+}
