@@ -1,0 +1,65 @@
+/*Geral*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 2%;
+
+}
+
+.clear{clear: both;}
+
+/*Classes site*/
+body{
+	background-color: black;
+}
+
+header{
+	padding: 8px 0;
+	background-color: #fef802;
+	height: 80px;
+}
+
+.logo{
+	float: left;
+}
+
+.logo img{
+	width: 180px;
+}
+
+nav.menu-desktop{
+	float: right;
+}
+
+nav.menu-desktop ul{
+	position: relative;
+	top: 20px;
+}
+
+nav.menu-desktop li.selected{font-weight: bold;}
+
+nav.menu-desktop li{
+	padding: 0 10px;
+	font-weight: lighter;
+	display: inline-block;
+
+}
+
+nav.menu-desktop a{
+	color: black;
+	text-decoration: none;
+	transition: all linear 0.2s;
+	font-size: 18px;
+}
+
+nav.menu-desktop a:hover{
+	color: #646566;
+	font-size: 20px;
+}
