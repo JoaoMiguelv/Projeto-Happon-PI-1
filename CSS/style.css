@@ -64,7 +64,7 @@ nav.menu-desktop a:hover{
 	font-size: 20px;
 }
 
-section.main-bg{
+div.main-bg{
 	width: 100%;
 	height: 700px;
 	background-image: url(../img/Banner2.jpg);
@@ -73,7 +73,7 @@ section.main-bg{
 	background-position: center;
 }
 
-section.main-bg .container{
+div.main-bg .container{
 	position: relative;
 	z-index: 2;
 }
@@ -88,13 +88,25 @@ section.main-bg .container{
 
 }
 
-section.main-bg h2{
+div.main-bg h2{
 	padding: 80px 0;
 	text-align: right;
 	color: white;
 }
 
-section.main-bg p{
+article.types{
+	padding: 30px 0;
 	text-align: center;
+}
+
+.line-text h2{
 	color: white;
+	font-size: 27px;
+	margin: 20px 0;
+}
+
+.box-single{
+	float: left;
+	width: 25%;
+	padding: 30px 0;
 }
